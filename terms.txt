@@ -1,0 +1,33 @@
+· SAST - Static Application Security Testing
+White-box testing that analyzes source code. Automated with Veracode, SonarQube
+· SCA - Software Composition Analysis
+Scans the codebase to provide visibility of the open source components, including license compliance and security vulnerabilities. Automated with Snyk
+· DAST - Dynamic Application Security Testing
+Black-box security testing with dynamic tests. Automated with Veracode DAST
+· IAST - Interactive Application Security Testing
+SAST + DAST, scans specific workflows of code.
+· IAC Security Testing
+· API Security 
+
+
+DevSecOps : Development + Security + Operations  
+
+Tools for implementing DevSecOps:
+    Development:
+        - GIT Secrets: used to identify any security credentials or tokens that have been commited.
+        - Security Plugins at IDE level, SonarCube, Snyk...
+        - Trufflehog
+    Security:
+        - Code Quality Tools, SonarQube
+        - SAST security tools. Fortify, Veracode, Checkmarx
+        - SCA security tools. Fortify, Veracode, Blackduck Snyk
+        - DAST security tools. OWASP, ZAP, WebInspect, Veracode DAST, Acunetix
+        - IAC security tools. Bridgecrew, Synk.
+        - Container security tools. AQUA , Qualys, PrismaCloud.
+    Operations:
+        - Build Pipeline tools. Gitlab, Github Actions..
+        - Cloud Security Posture Management tools. AQUA, BridgeCrew
+        - Container Registry scanning tools. AQUA, AWS Native Registry Scanning.
+        - Infrastructure Scanning tools. Chef Inspect(compliance), Nessus
+        - Cloud Security tools. AWS Security Hub, Azure Defender
+
